@@ -1,0 +1,48 @@
+{
+    "baseURL": "http://automationexercise.com",
+
+    "register":
+    {
+        "name":"demoqa09",
+        "email":"qa.abcd@example.com",
+        "prefix":"Mrs.",
+        "password":"Passw0rd",
+        "birthDay": "9",
+        "birthMonth": "April",
+        "birthYear": "1993"
+    },
+
+    "information":
+    {
+        
+        "firstName":"Anna",
+        "lastName":"Justin",
+        "company":"ABC Company",
+        "address1":"270 Orchard Building",
+        "address2":"Orchard road",
+        "country":"Singapore",
+        "state":"Singapore",
+        "city":"Orchard",
+        "zipCode":"238115",
+        "mobileNumber":"+65 1800 699 2824"
+    },
+
+    "login":
+    {
+        "email": "qademo@example.com",
+        "password":"P@ssword09",
+        "name":"demoqa99"
+    },
+
+    "loginFail":
+    {
+        "email": "abc.m@gmail.com",
+        "password":"P@ssw0rd09"
+    },
+
+    "registerFail":
+    {
+        "name": "ABCD",
+        "email": "abcqa.m@gmail.com"
+    }
+}
