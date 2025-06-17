@@ -47,8 +47,8 @@ await signupPage.inputTextMobileNumber(data.information.mobileNumber);
 await signupPage.clickCreateAccountButton(); //Click 'Create Account button'
 await signupPage.verifyAccountCreatedIsVisible(); //Verify that 'ACCOUNT CREATED!' is visible
 await signupPage.clickContinueButton(); //Click 'Continue' button
-
 await homePageCustomer.verifyUserNameCustomer(data.register.name); //Verify that 'Logged in as username' is visible
+//delete user
 await homePageCustomer.clickDeleteAccountButton(); // Click 'Delete Account' button
 await homePageCustomer.verifyAccountDeleted();// Verify that 'ACCOUNT DELETED!' is visible
 await homePageCustomer.clickContinueButton();//Click 'Continue' button

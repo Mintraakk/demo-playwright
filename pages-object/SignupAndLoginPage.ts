@@ -20,7 +20,7 @@ this.signupTextName = page.getByPlaceholder('Name');
 this.signupTextEmail = page.locator("input[data-qa='signup-email']");
 this.signupButton = page.locator("button[data-qa='signup-button']"); 
 
-this.titleNewSignup = page.locator("div[class='login-form'] h2");
+this.titleLoginAccount= page.locator("div[class='login-form'] h2");
 this.loginTextEmail = page.locator("input[data-qa='login-email']");
 this.loginTextPassword = page. getByPlaceholder('Password');
 this.loginButton = page.locator ("button[data-qa='login-button']"); 
